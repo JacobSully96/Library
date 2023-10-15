@@ -13,7 +13,7 @@
 
     <button id="new-book-btn">New Book</button>
 
-    <form id="new-book-form" action="" for="new-book-form" style="">
+    <form id="new-book-form" action="" for="new-book-form" style="display: none;">
 
         <label for="title">Title</label>
         <input type="text" id="title" name="title">
@@ -24,8 +24,15 @@
         <label for="pages">Pages</label>
         <input type="number" id="pages" name="pages">
 
+        <label for="pages">Read</label>
+        <input type="checkbox" id="read" name="read">
+
+        <input type="submit" value="Add Book">
+
 
     </form>
+
+    <div id="library"></div>
 
 
 
